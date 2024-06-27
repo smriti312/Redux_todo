@@ -5,6 +5,7 @@ import "./App.css";
 import Todo from "./components/todo";
 
 function App() {
+  console.log("Hello");
   return (
     <Provider store={store}>
       <div>
